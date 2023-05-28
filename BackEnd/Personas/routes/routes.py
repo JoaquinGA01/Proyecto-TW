@@ -1,4 +1,4 @@
-from fastapi import APIRouter, status
+from fastapi import APIRouter, status, HTTPException
 from pydantic import EmailStr
 from Personas.model.Persona import FilterPersona
 from Personas.routes.functions import *
@@ -27,3 +27,5 @@ async def crear_persona(persona: Persona):
     except Exception as error:
         result = {'success': False,'detail': error}
         return JSONResponse(status_code=status.HTTP_201_CREATED, content=result)
+
+
