@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enviar mensaje a MQTT</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.1.0/mqtt.min.js"></script>
+</head>
+<body>
+  <h1>Enviar mensaje a MQTT</h1>
+
+  <form id="messageForm">
+    <label for="topic">Tema:</label>
+    <input type="text" id="topic" required><br><br>
+    <label for="message">Mensaje:</label>
+    <input type="text" id="message" required><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    // Conectar al servidor MQTT en la misma máquina
+    var client = mqtt.connect('ws://localhost:1883');
+
+    // Escuchar cuando la conexión se establece correctamente
+    client.on('connect', function () {
+      console.log('Conexión MQTT establecida');
+    });
+
+    // Manejar el envío del formulario
+    var messageForm = document.getElementById('messageForm');
+    messageForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var topicInput = document.getElementById('topic');
+      var messageInput = document.getElementById('message');
+      var topic = topicInput.value;
+      var message = messageInput.value;
+      sendMessage(topic, message);
+      topicInput.value = '';
+      messageInput.value = '';
+    });
+
+    // Función para enviar un mensaje MQTT
+    function sendMessage(topic, message) {
+      client.publish(topic, message);
+      console.log('Mensaje enviado:', message);
+    }
+  </script>
+</body>
+</html>
