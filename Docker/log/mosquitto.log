@@ -44,3 +44,247 @@
 1685243463: Client auto-F8BC2828-D0D4-BF6A-BC76-54F773082879 disconnected.
 1685243495: Client ESP32Client has exceeded timeout, disconnecting.
 1685243532: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685245333: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685247134: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685247843: Client auto-27DC88C6-67A0-6225-20EA-1674FA8661D7 closed its connection.
+1685248935: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685250736: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685251041: New connection from 172.22.0.1:57760 on port 1883.
+1685251041: New client connected from 172.22.0.1:57760 as auto-E1CC8614-484F-B44C-DDAF-0EDB7D60B17D (p2, c1, k60, u'mjproyect').
+1685251064: New connection from 172.22.0.1:57762 on port 1883.
+1685251064: New client connected from 172.22.0.1:57762 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685251133: Client auto-E1CC8614-484F-B44C-DDAF-0EDB7D60B17D has exceeded timeout, disconnecting.
+1685251296: New connection from 172.22.0.1:57764 on port 1883.
+1685251296: Client auto-A94420E1-0695-DF1B-CFC2-7628F88AFD89 disconnected, not authorised.
+1685251357: New connection from 172.22.0.1:57766 on port 1883.
+1685251357: New client connected from 172.22.0.1:57766 as auto-6BB2F2E1-40EA-AF52-98F5-214ED8AF6E12 (p2, c1, k60, u'mjproyect').
+1685251357: Client auto-6BB2F2E1-40EA-AF52-98F5-214ED8AF6E12 disconnected.
+1685251366: New connection from 172.22.0.1:57768 on port 1883.
+1685251366: New client connected from 172.22.0.1:57768 as auto-120B8A92-43EA-C591-E10B-5E174ED5604A (p2, c1, k60, u'mjproyect').
+1685251366: Client auto-120B8A92-43EA-C591-E10B-5E174ED5604A disconnected.
+1685251402: New connection from 172.22.0.1:57770 on port 1883.
+1685251402: New client connected from 172.22.0.1:57770 as auto-5390DA2F-142A-CFF2-34A6-4FEE846FC8E4 (p2, c1, k60, u'mjproyect').
+1685251402: Client auto-5390DA2F-142A-CFF2-34A6-4FEE846FC8E4 disconnected.
+1685251438: New connection from 172.22.0.1:57772 on port 1883.
+1685251438: New client connected from 172.22.0.1:57772 as auto-520F0A90-FAE4-0DA9-B313-3A6C1B2F5A25 (p2, c1, k60, u'mjproyect').
+1685251438: Client auto-520F0A90-FAE4-0DA9-B313-3A6C1B2F5A25 disconnected.
+1685251443: New connection from 172.22.0.1:57774 on port 1883.
+1685251443: New client connected from 172.22.0.1:57774 as auto-2E72926C-01B2-DCA5-5106-E500EA303F16 (p2, c1, k60, u'mjproyect').
+1685251443: Client auto-2E72926C-01B2-DCA5-5106-E500EA303F16 disconnected.
+1685252183: New connection from 172.22.0.1:57776 on port 1883.
+1685252183: New client connected from 172.22.0.1:57776 as auto-9783A6A4-BEFB-22A3-0804-7369ACB0F9B3 (p2, c1, k60, u'mjproyect').
+1685252183: Client auto-9783A6A4-BEFB-22A3-0804-7369ACB0F9B3 disconnected.
+1685252284: New connection from 172.22.0.1:57778 on port 1883.
+1685252284: New client connected from 172.22.0.1:57778 as auto-BE8977F3-C2EB-3F39-045D-DB90C34E4325 (p2, c1, k60, u'mjproyect').
+1685252284: Client auto-BE8977F3-C2EB-3F39-045D-DB90C34E4325 disconnected.
+1685252332: New connection from 172.22.0.1:57780 on port 1883.
+1685252332: New client connected from 172.22.0.1:57780 as auto-413F5A77-AC80-CE0A-C5FE-F3E77181AB08 (p2, c1, k60, u'mjproyect').
+1685252332: Client auto-413F5A77-AC80-CE0A-C5FE-F3E77181AB08 disconnected.
+1685252355: New connection from 172.22.0.1:57782 on port 1883.
+1685252355: New client connected from 172.22.0.1:57782 as auto-C0864DA7-4084-5AB9-D768-B81935BC8D80 (p2, c1, k60, u'mjproyect').
+1685252355: Client auto-C0864DA7-4084-5AB9-D768-B81935BC8D80 disconnected.
+1685252537: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685252583: New connection from 172.22.0.1:57784 on port 1883.
+1685252583: New client connected from 172.22.0.1:57784 as auto-49BFAEEA-E927-362C-941D-92BC1C86A8EA (p2, c1, k60, u'mjproyect').
+1685252583: Client auto-49BFAEEA-E927-362C-941D-92BC1C86A8EA disconnected.
+1685252590: New connection from 172.22.0.1:57786 on port 1883.
+1685252590: New client connected from 172.22.0.1:57786 as auto-AC3831C1-5389-58B4-73E7-8642DF9C3CBD (p2, c1, k60, u'mjproyect').
+1685252590: Client auto-AC3831C1-5389-58B4-73E7-8642DF9C3CBD disconnected.
+1685253558: New connection from 172.22.0.1:57788 on port 1883.
+1685253558: New client connected from 172.22.0.1:57788 as auto-F9DB5181-EAE7-0B0D-5451-39082C699A26 (p2, c1, k60, u'mjproyect').
+1685253558: Client auto-F9DB5181-EAE7-0B0D-5451-39082C699A26 disconnected.
+1685254023: New connection from 172.22.0.1:57790 on port 1883.
+1685254023: New client connected from 172.22.0.1:57790 as auto-6689BAE8-FD6E-60BE-EF32-78AF58D62518 (p2, c1, k60, u'mjproyect').
+1685254023: Client auto-6689BAE8-FD6E-60BE-EF32-78AF58D62518 disconnected.
+1685254030: New connection from 172.22.0.1:57792 on port 1883.
+1685254030: New client connected from 172.22.0.1:57792 as auto-5F0A31F6-D06E-508E-3923-17AB0CAD471C (p2, c1, k60, u'mjproyect').
+1685254030: Client auto-5F0A31F6-D06E-508E-3923-17AB0CAD471C disconnected.
+1685254039: New connection from 172.22.0.1:57794 on port 1883.
+1685254039: New client connected from 172.22.0.1:57794 as auto-37F1B27B-63E2-72B1-781E-E8529CE88DC6 (p2, c1, k60, u'mjproyect').
+1685254039: Client auto-37F1B27B-63E2-72B1-781E-E8529CE88DC6 disconnected.
+1685254089: New connection from 172.22.0.1:57796 on port 1883.
+1685254089: New client connected from 172.22.0.1:57796 as auto-D485A6D3-74ED-7445-D8C7-1E0E292E0A4A (p2, c1, k60, u'mjproyect').
+1685254089: Client auto-D485A6D3-74ED-7445-D8C7-1E0E292E0A4A disconnected.
+1685254094: New connection from 172.22.0.1:57798 on port 1883.
+1685254094: New client connected from 172.22.0.1:57798 as auto-0E684620-09D3-1C45-A0D1-2B757D7A5BE9 (p2, c1, k60, u'mjproyect').
+1685254094: Client auto-0E684620-09D3-1C45-A0D1-2B757D7A5BE9 disconnected.
+1685254127: New connection from 172.22.0.1:57800 on port 1883.
+1685254127: New client connected from 172.22.0.1:57800 as auto-A56DFBCE-EC0C-7123-B4B7-0238A30356F2 (p2, c1, k60, u'mjproyect').
+1685254127: Client auto-A56DFBCE-EC0C-7123-B4B7-0238A30356F2 disconnected.
+1685254148: New connection from 172.22.0.1:57802 on port 1883.
+1685254148: New client connected from 172.22.0.1:57802 as auto-C41B49D1-2103-4324-EB6E-E28B48B062B7 (p2, c1, k60, u'mjproyect').
+1685254148: Client auto-C41B49D1-2103-4324-EB6E-E28B48B062B7 disconnected.
+1685254338: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685256139: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685256421: New connection from 172.22.0.1:57804 on port 1883.
+1685256421: New client connected from 172.22.0.1:57804 as auto-9A989232-BB24-74C3-A155-D3A7B28364D7 (p2, c1, k60, u'mjproyect').
+1685256421: Client auto-9A989232-BB24-74C3-A155-D3A7B28364D7 disconnected.
+1685256424: New connection from 172.22.0.1:57806 on port 1883.
+1685256424: New client connected from 172.22.0.1:57806 as auto-D8677C0A-0683-B63C-77DA-99717A0C784B (p2, c1, k60, u'mjproyect').
+1685256424: Client auto-D8677C0A-0683-B63C-77DA-99717A0C784B disconnected.
+1685256427: New connection from 172.22.0.1:57808 on port 1883.
+1685256427: New client connected from 172.22.0.1:57808 as auto-63F15CD2-023D-309A-80CE-14752EE20A1A (p2, c1, k60, u'mjproyect').
+1685256427: Client auto-63F15CD2-023D-309A-80CE-14752EE20A1A disconnected.
+1685256430: New connection from 172.22.0.1:57810 on port 1883.
+1685256430: New client connected from 172.22.0.1:57810 as auto-24B56CEB-8441-D4EF-1E48-EDF4FB7756D2 (p2, c1, k60, u'mjproyect').
+1685256430: Client auto-24B56CEB-8441-D4EF-1E48-EDF4FB7756D2 disconnected.
+1685256434: New connection from 172.22.0.1:57812 on port 1883.
+1685256434: New client connected from 172.22.0.1:57812 as auto-FC004116-2B8D-1B8F-88F2-239857D9C1C9 (p2, c1, k60, u'mjproyect').
+1685256434: Client auto-FC004116-2B8D-1B8F-88F2-239857D9C1C9 disconnected.
+1685284808: mosquitto version 2.0.15 starting
+1685284808: Config loaded from /mosquitto/config/mosquitto.conf.
+1685284808: Opening ipv4 listen socket on port 1883.
+1685284808: Opening ipv6 listen socket on port 1883.
+1685284808: mosquitto version 2.0.15 running
+1685284875: New connection from 172.22.0.1:37610 on port 1883.
+1685284875: New client connected from 172.22.0.1:37610 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685284897: New connection from 172.22.0.1:37612 on port 1883.
+1685284897: New client connected from 172.22.0.1:37612 as auto-FCE4AA6E-35F0-3DC2-A6E5-054F0F469B01 (p2, c1, k60, u'mjproyect').
+1685284897: Client auto-FCE4AA6E-35F0-3DC2-A6E5-054F0F469B01 disconnected.
+1685284905: New connection from 172.22.0.1:37614 on port 1883.
+1685284905: New client connected from 172.22.0.1:37614 as auto-6E7A083C-BAE9-0F13-B4BE-7BDCB9860D31 (p2, c1, k60, u'mjproyect').
+1685284905: Client auto-6E7A083C-BAE9-0F13-B4BE-7BDCB9860D31 disconnected.
+1685284909: New connection from 172.22.0.1:37616 on port 1883.
+1685284909: New client connected from 172.22.0.1:37616 as auto-4FCD7A1E-59A2-D8DB-02E9-54A240D48170 (p2, c1, k60, u'mjproyect').
+1685284909: Client auto-4FCD7A1E-59A2-D8DB-02E9-54A240D48170 disconnected.
+1685284914: New connection from 172.22.0.1:37618 on port 1883.
+1685284914: New client connected from 172.22.0.1:37618 as auto-FD9B421C-B89A-0B5B-C731-0EC50AB478FB (p2, c1, k60, u'mjproyect').
+1685284914: Client auto-FD9B421C-B89A-0B5B-C731-0EC50AB478FB disconnected.
+1685284956: New connection from 172.22.0.1:37620 on port 1883.
+1685284956: New client connected from 172.22.0.1:37620 as auto-267C50C7-4C09-47D2-9691-C923943F6484 (p2, c1, k60, u'mjproyect').
+1685284956: Client auto-267C50C7-4C09-47D2-9691-C923943F6484 disconnected.
+1685284963: New connection from 172.22.0.1:37622 on port 1883.
+1685284963: New client connected from 172.22.0.1:37622 as auto-2FB721E4-8D35-508D-444D-9355DFA973D0 (p2, c1, k60, u'mjproyect').
+1685284963: Client auto-2FB721E4-8D35-508D-444D-9355DFA973D0 disconnected.
+1685286308: Client ESP32Client has exceeded timeout, disconnecting.
+1685286609: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685288410: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685290210: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685292012: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685293813: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685295613: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685297415: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685297792: New connection from 172.22.0.1:37624 on port 1883.
+1685297792: New client connected from 172.22.0.1:37624 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685297812: New connection from 172.22.0.1:37626 on port 1883.
+1685297812: New client connected from 172.22.0.1:37626 as auto-E8476AB8-E79C-2065-3000-258B1240DB54 (p2, c1, k60, u'mjproyect').
+1685297812: Client auto-E8476AB8-E79C-2065-3000-258B1240DB54 disconnected.
+1685297812: New connection from 172.22.0.1:37628 on port 1883.
+1685297812: New client connected from 172.22.0.1:37628 as auto-B8873814-3199-A7E5-2D3C-E4F0F52A09CC (p2, c1, k60, u'mjproyect').
+1685297812: Client auto-B8873814-3199-A7E5-2D3C-E4F0F52A09CC disconnected.
+1685297815: New connection from 172.22.0.1:37630 on port 1883.
+1685297815: New client connected from 172.22.0.1:37630 as auto-4F7220AD-A850-9696-57C1-8591411FDAF5 (p2, c1, k60, u'mjproyect').
+1685297815: Client auto-4F7220AD-A850-9696-57C1-8591411FDAF5 disconnected.
+1685297819: New connection from 172.22.0.1:37632 on port 1883.
+1685297819: New client connected from 172.22.0.1:37632 as auto-EB9AC940-5129-BA57-EE73-0F602E83EF55 (p2, c1, k60, u'mjproyect').
+1685297819: Client auto-EB9AC940-5129-BA57-EE73-0F602E83EF55 disconnected.
+1685299216: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685301016: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685301620: Client ESP32Client closed its connection.
+1685301620: New connection from 172.22.0.1:37634 on port 1883.
+1685301620: New client connected from 172.22.0.1:37634 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685302818: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685304619: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685306420: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685308220: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685310021: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685310452: Client ESP32Client has exceeded timeout, disconnecting.
+1685311822: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685312987: New connection from 172.22.0.1:37636 on port 1883.
+1685312987: New client connected from 172.22.0.1:37636 as auto-AA2C574D-FFF6-A199-A5A5-B4E03C93B687 (p2, c1, k60, u'mjproyect').
+1685312987: Client auto-AA2C574D-FFF6-A199-A5A5-B4E03C93B687 disconnected.
+1685312988: New connection from 172.22.0.1:37638 on port 1883.
+1685312988: New client connected from 172.22.0.1:37638 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685312997: New connection from 172.22.0.1:37640 on port 1883.
+1685312997: New client connected from 172.22.0.1:37640 as auto-F007CF2E-E96B-CB84-B20E-4367BC185AF9 (p2, c1, k60, u'mjproyect').
+1685312997: Client auto-F007CF2E-E96B-CB84-B20E-4367BC185AF9 disconnected.
+1685313003: New connection from 172.22.0.1:37642 on port 1883.
+1685313003: New client connected from 172.22.0.1:37642 as auto-E8D83640-F39F-4146-FD8B-73B9312AFECE (p2, c1, k60, u'mjproyect').
+1685313003: Client auto-E8D83640-F39F-4146-FD8B-73B9312AFECE disconnected.
+1685313007: New connection from 172.22.0.1:37644 on port 1883.
+1685313007: New client connected from 172.22.0.1:37644 as auto-D9643FDA-9EFC-AB50-3065-FF1C4821FCF2 (p2, c1, k60, u'mjproyect').
+1685313007: Client auto-D9643FDA-9EFC-AB50-3065-FF1C4821FCF2 disconnected.
+1685313624: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685314102: New connection from 172.22.0.1:37646 on port 1883.
+1685314102: Client ESP32Client already connected, closing old connection.
+1685314102: New client connected from 172.22.0.1:37646 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685314909: Client ESP32Client has exceeded timeout, disconnecting.
+1685314911: New connection from 172.22.0.1:37648 on port 1883.
+1685314911: New client connected from 172.22.0.1:37648 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685315042: Client ESP32Client has exceeded timeout, disconnecting.
+1685315051: New connection from 172.22.0.1:37650 on port 1883.
+1685315051: New client connected from 172.22.0.1:37650 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685315064: New connection from 172.22.0.1:37652 on port 1883.
+1685315064: Client ESP32Client already connected, closing old connection.
+1685315064: New client connected from 172.22.0.1:37652 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685315150: Client ESP32Client has exceeded timeout, disconnecting.
+1685315150: New connection from 172.22.0.1:37654 on port 1883.
+1685315150: New client connected from 172.22.0.1:37654 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685315265: New connection from 172.22.0.1:37656 on port 1883.
+1685315265: New client connected from 172.22.0.1:37656 as auto-776282B5-8BCE-631C-8764-843FCE638ED8 (p2, c1, k60, u'mjproyect').
+1685315265: Client auto-776282B5-8BCE-631C-8764-843FCE638ED8 disconnected.
+1685315271: New connection from 172.22.0.1:37658 on port 1883.
+1685315271: New client connected from 172.22.0.1:37658 as auto-EE09AB75-FAB2-ACFE-5751-C077C7D48973 (p2, c1, k60, u'mjproyect').
+1685315271: Client auto-EE09AB75-FAB2-ACFE-5751-C077C7D48973 disconnected.
+1685315288: New connection from 172.22.0.1:37660 on port 1883.
+1685315288: New client connected from 172.22.0.1:37660 as auto-B29634F4-7D7F-84D3-FFAC-A3A76116F148 (p2, c1, k60, u'mjproyect').
+1685315288: Client auto-B29634F4-7D7F-84D3-FFAC-A3A76116F148 disconnected.
+1685315293: New connection from 172.22.0.1:37662 on port 1883.
+1685315293: New client connected from 172.22.0.1:37662 as auto-2EEA6C88-A2B4-6D55-2D29-FF1BDA6C7562 (p2, c1, k60, u'mjproyect').
+1685315293: Client auto-2EEA6C88-A2B4-6D55-2D29-FF1BDA6C7562 disconnected.
+1685315296: New connection from 172.22.0.1:37664 on port 1883.
+1685315296: New client connected from 172.22.0.1:37664 as auto-F7B39D6C-6478-3BE8-BC39-BFF276646FB7 (p2, c1, k60, u'mjproyect').
+1685315296: Client auto-F7B39D6C-6478-3BE8-BC39-BFF276646FB7 disconnected.
+1685315305: New connection from 172.22.0.1:37666 on port 1883.
+1685315305: New client connected from 172.22.0.1:37666 as auto-495879C7-A802-483A-99D0-A359468125CF (p2, c1, k60, u'mjproyect').
+1685315305: Client auto-495879C7-A802-483A-99D0-A359468125CF disconnected.
+1685315319: New connection from 172.22.0.1:37668 on port 1883.
+1685315319: New client connected from 172.22.0.1:37668 as auto-24FF35DF-C7A0-8256-0DE9-DBAA49BA4DB1 (p2, c1, k60, u'mjproyect').
+1685315319: Client auto-24FF35DF-C7A0-8256-0DE9-DBAA49BA4DB1 disconnected.
+1685315334: New connection from 172.22.0.1:37670 on port 1883.
+1685315334: New client connected from 172.22.0.1:37670 as auto-C732A32B-BFDC-3E6F-7925-FD9D159769DC (p2, c1, k60, u'mjproyect').
+1685315334: Client auto-C732A32B-BFDC-3E6F-7925-FD9D159769DC disconnected.
+1685315353: New connection from 172.22.0.1:37672 on port 1883.
+1685315353: New client connected from 172.22.0.1:37672 as auto-288995CF-3E8B-B3E9-C378-E5C26C831958 (p2, c1, k60, u'mjproyect').
+1685315353: Client auto-288995CF-3E8B-B3E9-C378-E5C26C831958 disconnected.
+1685315366: New connection from 172.22.0.1:37674 on port 1883.
+1685315366: New client connected from 172.22.0.1:37674 as auto-2287BA9C-AE6B-6778-460D-AD990966D46C (p2, c1, k60, u'mjproyect').
+1685315366: Client auto-2287BA9C-AE6B-6778-460D-AD990966D46C disconnected.
+1685315425: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685315442: New connection from 172.22.0.1:37676 on port 1883.
+1685315442: New client connected from 172.22.0.1:37676 as auto-A51391E1-D8CB-1158-DCB6-85B2E8657659 (p2, c1, k60, u'mjproyect').
+1685315442: Client auto-A51391E1-D8CB-1158-DCB6-85B2E8657659 disconnected.
+1685315454: New connection from 172.22.0.1:37678 on port 1883.
+1685315454: New client connected from 172.22.0.1:37678 as auto-93E86141-96D1-1D97-D8DF-0B5A3C1E977B (p2, c1, k60, u'mjproyect').
+1685315454: Client auto-93E86141-96D1-1D97-D8DF-0B5A3C1E977B disconnected.
+1685315459: New connection from 172.22.0.1:37680 on port 1883.
+1685315459: New client connected from 172.22.0.1:37680 as auto-F1F25D7F-A25C-06E3-FFEB-D62D6557CCFF (p2, c1, k60, u'mjproyect').
+1685315459: Client auto-F1F25D7F-A25C-06E3-FFEB-D62D6557CCFF disconnected.
+1685315624: Client ESP32Client has exceeded timeout, disconnecting.
+1685317226: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685319027: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685320827: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685322629: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685324430: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685326231: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685328032: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685329833: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685331633: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685333434: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685335235: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685336041: New connection from 172.22.0.1:37682 on port 1883.
+1685336041: New client connected from 172.22.0.1:37682 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685336050: New connection from 172.22.0.1:37684 on port 1883.
+1685336050: New client connected from 172.22.0.1:37684 as auto-921FC9AE-2B4E-23C6-DDA6-D6C2140CB67B (p2, c1, k60, u'mjproyect').
+1685336050: Client auto-921FC9AE-2B4E-23C6-DDA6-D6C2140CB67B disconnected.
+1685336056: New connection from 172.22.0.1:37686 on port 1883.
+1685336056: New client connected from 172.22.0.1:37686 as auto-C46A4EB7-2F16-F657-1F43-37F0875FF008 (p2, c1, k60, u'mjproyect').
+1685336056: Client auto-C46A4EB7-2F16-F657-1F43-37F0875FF008 disconnected.
+1685336070: New connection from 172.22.0.1:37688 on port 1883.
+1685336070: New client connected from 172.22.0.1:37688 as auto-D699158C-21D7-D4BF-CE62-D8579E0967A0 (p2, c1, k60, u'mjproyect').
+1685336070: Client auto-D699158C-21D7-D4BF-CE62-D8579E0967A0 disconnected.
+1685336079: New connection from 172.22.0.1:37690 on port 1883.
+1685336079: New client connected from 172.22.0.1:37690 as auto-38A6ABA0-364B-29C4-3302-CEAE2B032040 (p2, c1, k60, u'mjproyect').
+1685336079: Client auto-38A6ABA0-364B-29C4-3302-CEAE2B032040 disconnected.
+1685336306: Client ESP32Client has exceeded timeout, disconnecting.
+1685337037: Saving in-memory database to /mosquitto/data//mosquitto.db.
