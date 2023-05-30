@@ -14,26 +14,24 @@ function toggleRegistration() {
 }
 
 
-function iniciarSesion() {
+async function iniciarSesion() {
   var user = document.getElementById('username').value;
   var pass = document.getElementById('password').value;
   const url = 'http://localhost:8000/api/personas/getAll/';
-  params = {correo: user,password: pass};
-  console.log(JSON.stringify(params))
-  fetch(url, {
+  params = { email: user, password: pass };
+  console.log(JSON.stringify(params));
+
+  const response = await fetch('http://localhost:8000/api/personas/getAll/', {
     method: 'POST',
+    body: JSON.stringify(params),
     headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: JSON.stringify(params)
-  })
-    .then(response => response.json())
-    .then(data => {
-      // Aquí puedes trabajar con la respuesta de la API
-    })
-    .catch(error => {
-      // Manejo de errores
-      console.error('Error:', error);
-    });
+      'Content-Type': 'application/json'
+    }
+  });
+
+  const data = await response.text();
+  document.open();
+  document.write(data);
+  document.close();
 }
 

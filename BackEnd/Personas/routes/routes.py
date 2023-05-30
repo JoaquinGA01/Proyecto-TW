@@ -11,12 +11,14 @@ persona = APIRouter()
 
 @persona.post(path="/getAll",
               response_description="Obtiene todas las personas.", tags=['Personas'])
-async def obtener_personas(request: Request,correo: EmailStr = Form(), password: str = Form()):
+async def obtener_personas(request: Request,persona: Persona):
     """A dummy docstring."""
     try:
-        result = await get_persona(correo, password)
+        personadic = persona.dict()
+        result = await get_persona(personadic['email'], personadic['password'])
+        print(result)
         if result.get('success') is False:
-            return templates.TemplateResponse("inicio/index.html",{"request":request})
+            return templates.TemplateResponse("inicio/index.html",{"request":request,"respuesta":"Este usuario no existe"})
         return templates.TemplateResponse("principal/index.html",{"request":request})
     except Exception as error:
         result = {'success': False,'detail': error}

@@ -3,7 +3,7 @@ from fastapi import Form
 from typing import Optional
 
 class Persona(BaseModel):
-    nombre: str
+    nombre: Optional[str]
     email: EmailStr
     password: str 
     huella: Optional[str]
