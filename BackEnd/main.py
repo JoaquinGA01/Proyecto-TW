@@ -16,7 +16,11 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 def read_root(request: Request):
-    return templates.TemplateResponse("index.html",{"request":request})
+    return templates.TemplateResponse("inicio/index.html",{"request":request})
+
+@app.get("/2")
+def read_root(request: Request):
+    return templates.TemplateResponse("principal/index.html",{"request":request})
 
 app.include_router(persona, prefix="/api/personas")
 

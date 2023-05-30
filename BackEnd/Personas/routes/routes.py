@@ -16,8 +16,8 @@ async def obtener_personas(request: Request,correo: EmailStr = Form(), password:
     try:
         result = await get_persona(correo, password)
         if result.get('success') is False:
-            return templates.TemplateResponse("index.html",{"request":request})
-        return templates.TemplateResponse("prueba.html",{"request":request})
+            return templates.TemplateResponse("inicio/index.html",{"request":request})
+        return templates.TemplateResponse("principal/index.html",{"request":request})
     except Exception as error:
         result = {'success': False,'detail': error}
         return JSONResponse(status_code=status.HTTP_201_CREATED, content=result)
