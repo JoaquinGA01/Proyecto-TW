@@ -15,18 +15,14 @@ function toggleRegistration() {
 
 
 function iniciarSesion() {
-  var user = document.getElementById('username');
-  var pass = document.getElementById('password');
-  const url = 'http://localhost:8000/api/personas/getAll';
-  const params = {
-    correo: user,
-    password: pass
-  };
-  console.log(params)
+  var user = document.getElementById('username').value;
+  var pass = document.getElementById('password').value;
+  const url = 'http://localhost:8000/api/personas/getAll/';
+  params = {correo: user,password: pass};
+  console.log(JSON.stringify(params))
   fetch(url, {
     method: 'POST',
     headers: {
-      'accept':' application/json',
       'Content-Type': 'application/x-www-form-urlencoded',
     },
     body: JSON.stringify(params)
@@ -34,7 +30,6 @@ function iniciarSesion() {
     .then(response => response.json())
     .then(data => {
       // Aquí puedes trabajar con la respuesta de la API
-      mostrarRespuesta(data);
     })
     .catch(error => {
       // Manejo de errores
@@ -42,7 +37,3 @@ function iniciarSesion() {
     });
 }
 
-function mostrarRespuesta(data) {
-  var responseDiv = document.getElementById('response');
-  responseDiv.innerHTML = JSON.stringify(data);
-}

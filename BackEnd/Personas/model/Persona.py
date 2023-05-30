@@ -6,7 +6,7 @@ class Persona(BaseModel):
     nombre: str
     email: EmailStr
     password: str 
-    huella: str 
+    huella: Optional[str]
     
     
 class FilterPersona(BaseModel):
