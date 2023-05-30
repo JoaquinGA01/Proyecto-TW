@@ -6,11 +6,18 @@ db = cluster["Personas"]
 collection_Personas = db["Info"]
 
 
-async def get_persona(correo:str):
+async def get_persona(email:str, password: str):
     """A dummy docstring."""
     try:
-        metadata = collection_Personas.find_one({'email':correo})
-        return {'persona': metadata}
+        metadata = collection_Personas.find_one({'email':email})
+        if (metadata != None):
+            if(metadata['password'] == password):
+                success_descripcion = {'success': True,'detail': 'Persona encontrada'}
+            else:
+                success_descripcion = {'success': False,'detail': 'Persona no encontrada'}
+        else:
+            success_descripcion = {'success': False,'detail': 'Persona no encontrada'}
+        return success_descripcion
     except Exception as error:
         error_description = {'success': False, 'detail': f'Ha ocurrido un error en get_persona. Error {error}'}
         return error_description

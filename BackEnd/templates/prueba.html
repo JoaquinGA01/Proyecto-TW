@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consulta POST con Query Parameters</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Consulta POST con Query Parameters</h1>
+
+    <form id="myForm">
+        <label for="topic">Tema:</label>
+        <input type="text" id="topic" name="topic" required><br><br>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+        $(document).ready(function() {
+            $('#myForm').submit(function(e) {
+                e.preventDefault(); // Evita el envío del formulario por defecto
+
+                var topic = $('#topic').val();
+                var message = $('#message').val();
+
+                // Objeto de datos a enviar
+                var data = {
+                    topic: topic,
+                    message: message
+                };
+
+                // Realiza la consulta POST
+                $.post('http://localhost:8000/enviar-mqtt/', data, function(response) {
+                    console.log('Respuesta del servidor:', response);
+                    // Aquí puedes manejar la respuesta del servidor como desees
+                });
+            });
+        });
+    </script>
+</body>
+</html>
