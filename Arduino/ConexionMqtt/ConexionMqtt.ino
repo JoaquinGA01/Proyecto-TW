@@ -3,7 +3,7 @@
 
 const char* ssid = "iGarcia";
 const char* password = "AInEk2020";
-const char* mqttServer = "192.168.0.10";
+const char* mqttServer = "192.168.0.2";
 const int mqttPort = 1883;
 const char* mqttUser = "mjproyect";
 const char* mqttPassword = "gA11lEO1";
