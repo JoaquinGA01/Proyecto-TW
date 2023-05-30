@@ -3,7 +3,7 @@
 
 const char* ssid = "iGarcia";
 const char* password = "AInEk2020";
-const char* mqttServer = "192.168.0.49";
+const char* mqttServer = "192.168.0.10";
 const int mqttPort = 1883;
 const char* mqttUser = "mjproyect";
 const char* mqttPassword = "gA11lEO1";
@@ -89,7 +89,9 @@ void setup() {
   });
 
   pinMode(pin22, OUTPUT);
+  pinMode(pin22, LOW);
   pinMode(pin23, OUTPUT);
+  pinMode(pin23, LOW);
 }
 
 void loop() {

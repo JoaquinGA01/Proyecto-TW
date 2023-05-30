@@ -35,7 +35,7 @@ async def enviar_mqtt(topic: str = Form(), message: str = Form()):
     auth = {'username': mqtt_username, 'password': mqtt_password}
     
     # Enviar mensaje al servidor MQTT
-    mqtt_broker = '192.168.0.49'
+    mqtt_broker = '192.168.0.10'
     mqtt_port = 1883
     mqtt_publish.single(topic, payload=message, hostname=mqtt_broker, port=mqtt_port, auth=auth)
     
