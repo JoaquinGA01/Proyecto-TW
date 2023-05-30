@@ -23,6 +23,21 @@ async def obtener_personas(request: Request,persona: Persona):
     except Exception as error:
         result = {'success': False,'detail': error}
         return JSONResponse(status_code=status.HTTP_201_CREATED, content=result)
+    
+@persona.post(path="/getAll-Movil",
+              response_description="Obtiene todas las personas.", tags=['Personas'])
+async def obtener_personas(request: Request,persona: Persona):
+    """A dummy docstring."""
+    try:
+        personadic = persona.dict()
+        result = await get_persona(personadic['email'], personadic['password'])
+        print(result)
+        if result.get('success') is False:
+            return templates.TemplateResponse("inicio/index.html",{"request":request,"respuesta":"Este usuario no existe"})
+        return templates.TemplateResponse("principal/index.html",{"request":request})
+    except Exception as error:
+        result = {'success': False,'detail': error}
+        return JSONResponse(status_code=status.HTTP_201_CREATED, content=result)
         
 @persona.post(path="/registerPersona",
               response_description="Registra una Persona.", tags=['Personas'])
