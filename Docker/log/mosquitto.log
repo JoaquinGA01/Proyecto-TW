@@ -288,3 +288,160 @@
 1685336079: Client auto-38A6ABA0-364B-29C4-3302-CEAE2B032040 disconnected.
 1685336306: Client ESP32Client has exceeded timeout, disconnecting.
 1685337037: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685423557: mosquitto version 2.0.15 starting
+1685423557: Config loaded from /mosquitto/config/mosquitto.conf.
+1685423557: Opening ipv4 listen socket on port 1883.
+1685423557: Opening ipv6 listen socket on port 1883.
+1685423557: mosquitto version 2.0.15 running
+1685423946: New connection from 172.22.0.1:41712 on port 1883.
+1685423946: Client auto-4ACF8B47-EA90-FECD-3BB8-4A47F930B814 disconnected, not authorised.
+1685423951: New connection from 172.22.0.1:41714 on port 1883.
+1685423951: Client auto-9E94D6BE-A39D-660A-6A8F-63D10E6B91C3 disconnected, not authorised.
+1685423975: New connection from 172.22.0.1:41716 on port 1883.
+1685423975: New client connected from 172.22.0.1:41716 as auto-03977768-FA96-F274-90CA-CE0F98A33CAC (p2, c1, k60, u'mjproyect').
+1685423976: Client auto-03977768-FA96-F274-90CA-CE0F98A33CAC closed its connection.
+1685424196: New connection from 172.22.0.1:41718 on port 1883.
+1685424196: New client connected from 172.22.0.1:41718 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685424214: New connection from 172.22.0.1:41720 on port 1883.
+1685424214: New client connected from 172.22.0.1:41720 as auto-2BEAEF6C-B133-B475-44FB-A1A748D2075D (p2, c1, k60, u'mjproyect').
+1685424224: New connection from 172.22.0.1:41722 on port 1883.
+1685424224: New client connected from 172.22.0.1:41722 as auto-B9372919-322E-01C6-7278-3698D5DE8AE0 (p2, c1, k60, u'mjproyect').
+1685424224: Client auto-B9372919-322E-01C6-7278-3698D5DE8AE0 disconnected.
+1685424225: New connection from 172.22.0.1:41724 on port 1883.
+1685424225: New client connected from 172.22.0.1:41724 as auto-4170EC2A-5CCA-E5D6-F230-8A1808066D82 (p2, c1, k60, u'mjproyect').
+1685424225: Client auto-4170EC2A-5CCA-E5D6-F230-8A1808066D82 disconnected.
+1685424226: New connection from 172.22.0.1:41726 on port 1883.
+1685424226: New client connected from 172.22.0.1:41726 as auto-BFF2AAF0-8D47-3653-5550-63474B0B75D7 (p2, c1, k60, u'mjproyect').
+1685424226: Client auto-BFF2AAF0-8D47-3653-5550-63474B0B75D7 disconnected.
+1685424227: New connection from 172.22.0.1:41728 on port 1883.
+1685424227: New client connected from 172.22.0.1:41728 as auto-F628B2F3-3670-7708-977A-ABF26A66E60F (p2, c1, k60, u'mjproyect').
+1685424227: Client auto-F628B2F3-3670-7708-977A-ABF26A66E60F disconnected.
+1685424261: New connection from 172.22.0.1:41730 on port 1883.
+1685424261: New client connected from 172.22.0.1:41730 as auto-FDE347AE-0586-D849-1D26-134E1A7EB9BA (p2, c1, k60, u'mjproyect').
+1685424261: Client auto-FDE347AE-0586-D849-1D26-134E1A7EB9BA disconnected.
+1685424262: New connection from 172.22.0.1:41732 on port 1883.
+1685424262: New client connected from 172.22.0.1:41732 as auto-184BCA53-33E1-0A28-2CD5-228F4EA4A2FB (p2, c1, k60, u'mjproyect').
+1685424262: Client auto-184BCA53-33E1-0A28-2CD5-228F4EA4A2FB disconnected.
+1685424263: New connection from 172.22.0.1:41734 on port 1883.
+1685424263: New client connected from 172.22.0.1:41734 as auto-2C6CA405-1362-CB66-5BA6-F49D5BC09DDA (p2, c1, k60, u'mjproyect').
+1685424263: Client auto-2C6CA405-1362-CB66-5BA6-F49D5BC09DDA disconnected.
+1685424264: New connection from 172.22.0.1:41736 on port 1883.
+1685424264: New client connected from 172.22.0.1:41736 as auto-728E8C92-A880-0321-8D4C-4E25ACA9C8C2 (p2, c1, k60, u'mjproyect').
+1685424264: Client auto-728E8C92-A880-0321-8D4C-4E25ACA9C8C2 disconnected.
+1685424274: New connection from 172.22.0.1:41738 on port 1883.
+1685424274: New client connected from 172.22.0.1:41738 as auto-BA1F9895-83ED-B411-CA4F-3E85ED07396C (p2, c1, k60, u'mjproyect').
+1685424274: Client auto-BA1F9895-83ED-B411-CA4F-3E85ED07396C disconnected.
+1685424275: New connection from 172.22.0.1:41740 on port 1883.
+1685424275: New client connected from 172.22.0.1:41740 as auto-04205CD0-2A20-57FC-4F96-365CF4731D4E (p2, c1, k60, u'mjproyect').
+1685424275: Client auto-04205CD0-2A20-57FC-4F96-365CF4731D4E disconnected.
+1685424277: New connection from 172.22.0.1:41742 on port 1883.
+1685424277: New client connected from 172.22.0.1:41742 as auto-C8DB0026-7E02-6CEA-6C78-2E3D1C3B1143 (p2, c1, k60, u'mjproyect').
+1685424277: Client auto-C8DB0026-7E02-6CEA-6C78-2E3D1C3B1143 disconnected.
+1685424292: New connection from 172.22.0.1:41744 on port 1883.
+1685424292: New client connected from 172.22.0.1:41744 as auto-446CF48A-4CAB-538D-D647-61D0AEBC3C52 (p2, c1, k60, u'mjproyect').
+1685424292: Client auto-446CF48A-4CAB-538D-D647-61D0AEBC3C52 disconnected.
+1685424292: New connection from 172.22.0.1:41746 on port 1883.
+1685424292: New client connected from 172.22.0.1:41746 as auto-FFD093A6-130F-A73D-8FDF-C417A7973BA5 (p2, c1, k60, u'mjproyect').
+1685424292: Client auto-FFD093A6-130F-A73D-8FDF-C417A7973BA5 disconnected.
+1685424293: New connection from 172.22.0.1:41748 on port 1883.
+1685424293: New client connected from 172.22.0.1:41748 as auto-13031B32-8ADA-EE1A-73FF-10ABF96287E9 (p2, c1, k60, u'mjproyect').
+1685424293: Client auto-13031B32-8ADA-EE1A-73FF-10ABF96287E9 disconnected.
+1685424294: New connection from 172.22.0.1:41750 on port 1883.
+1685424294: New client connected from 172.22.0.1:41750 as auto-75B51D41-463F-B387-9E05-035E8077068D (p2, c1, k60, u'mjproyect').
+1685424294: Client auto-75B51D41-463F-B387-9E05-035E8077068D disconnected.
+1685424379: New connection from 172.22.0.1:41752 on port 1883.
+1685424379: New client connected from 172.22.0.1:41752 as auto-DB15D36C-F6B6-DC96-3CE4-B4AD4AD37A17 (p2, c1, k60, u'mjproyect').
+1685424379: Client auto-DB15D36C-F6B6-DC96-3CE4-B4AD4AD37A17 disconnected.
+1685424381: New connection from 172.22.0.1:41754 on port 1883.
+1685424381: New client connected from 172.22.0.1:41754 as auto-1A4E03D9-A24F-C99B-ABE0-BFFB3EB119BF (p2, c1, k60, u'mjproyect').
+1685424381: Client auto-1A4E03D9-A24F-C99B-ABE0-BFFB3EB119BF disconnected.
+1685424382: New connection from 172.22.0.1:41756 on port 1883.
+1685424382: New client connected from 172.22.0.1:41756 as auto-78C3B72F-34E7-EFE8-98B4-A36539CC8FDD (p2, c1, k60, u'mjproyect').
+1685424382: Client auto-78C3B72F-34E7-EFE8-98B4-A36539CC8FDD disconnected.
+1685424383: New connection from 172.22.0.1:41758 on port 1883.
+1685424383: New client connected from 172.22.0.1:41758 as auto-865E79C6-047A-2902-D6CC-ABE502ED2A11 (p2, c1, k60, u'mjproyect').
+1685424383: Client auto-865E79C6-047A-2902-D6CC-ABE502ED2A11 disconnected.
+1685424391: New connection from 172.22.0.1:41760 on port 1883.
+1685424391: New client connected from 172.22.0.1:41760 as auto-864FA4B0-C30E-8C56-0077-03AF391B2E2C (p2, c1, k60, u'mjproyect').
+1685424391: Client auto-864FA4B0-C30E-8C56-0077-03AF391B2E2C disconnected.
+1685424392: New connection from 172.22.0.1:41762 on port 1883.
+1685424392: New client connected from 172.22.0.1:41762 as auto-B492CE36-6A76-2159-2C17-F2181081AF35 (p2, c1, k60, u'mjproyect').
+1685424392: Client auto-B492CE36-6A76-2159-2C17-F2181081AF35 disconnected.
+1685424402: New connection from 172.22.0.1:41764 on port 1883.
+1685424402: New client connected from 172.22.0.1:41764 as auto-090DA6B6-6B17-7EAE-5A0D-2FC04815031D (p2, c1, k60, u'mjproyect').
+1685424402: Client auto-090DA6B6-6B17-7EAE-5A0D-2FC04815031D disconnected.
+1685424424: New connection from 172.22.0.1:41766 on port 1883.
+1685424424: New client connected from 172.22.0.1:41766 as auto-34072086-E3E9-3F9C-9395-677D825CDD08 (p2, c1, k60, u'mjproyect').
+1685424424: Client auto-34072086-E3E9-3F9C-9395-677D825CDD08 disconnected.
+1685424425: New connection from 172.22.0.1:41768 on port 1883.
+1685424425: New client connected from 172.22.0.1:41768 as auto-8AB45DE3-2060-32BD-BC08-03234E1205C4 (p2, c1, k60, u'mjproyect').
+1685424425: Client auto-8AB45DE3-2060-32BD-BC08-03234E1205C4 disconnected.
+1685424426: New connection from 172.22.0.1:41770 on port 1883.
+1685424426: New client connected from 172.22.0.1:41770 as auto-59A4F264-7C03-76BE-83D7-950B47FB34B0 (p2, c1, k60, u'mjproyect').
+1685424426: Client auto-59A4F264-7C03-76BE-83D7-950B47FB34B0 disconnected.
+1685424434: New connection from 172.22.0.1:41772 on port 1883.
+1685424434: Client ESP32Client already connected, closing old connection.
+1685424434: New client connected from 172.22.0.1:41772 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685424467: New connection from 172.22.0.1:41774 on port 1883.
+1685424467: New client connected from 172.22.0.1:41774 as auto-C2351041-E9BE-3F1C-ACF2-C0F418811357 (p2, c1, k60, u'mjproyect').
+1685424467: Client auto-C2351041-E9BE-3F1C-ACF2-C0F418811357 disconnected.
+1685424467: New connection from 172.22.0.1:41776 on port 1883.
+1685424467: New client connected from 172.22.0.1:41776 as auto-DADF9A7D-EC08-43B0-1841-DCECD261E8A7 (p2, c1, k60, u'mjproyect').
+1685424467: Client auto-DADF9A7D-EC08-43B0-1841-DCECD261E8A7 disconnected.
+1685424468: New connection from 172.22.0.1:41778 on port 1883.
+1685424468: New client connected from 172.22.0.1:41778 as auto-7CB27662-8320-FD29-3239-B77B6B99674F (p2, c1, k60, u'mjproyect').
+1685424468: Client auto-7CB27662-8320-FD29-3239-B77B6B99674F disconnected.
+1685424469: New connection from 172.22.0.1:41780 on port 1883.
+1685424469: New client connected from 172.22.0.1:41780 as auto-C50333A9-CC6B-A2A1-74DE-97EEDA787371 (p2, c1, k60, u'mjproyect').
+1685424469: Client auto-C50333A9-CC6B-A2A1-74DE-97EEDA787371 disconnected.
+1685424470: New connection from 172.22.0.1:41782 on port 1883.
+1685424470: New client connected from 172.22.0.1:41782 as auto-27B16375-DCF7-F979-1618-8AC99A54D1E1 (p2, c1, k60, u'mjproyect').
+1685424470: Client auto-27B16375-DCF7-F979-1618-8AC99A54D1E1 disconnected.
+1685424621: New connection from 172.22.0.1:41784 on port 1883.
+1685424621: New client connected from 172.22.0.1:41784 as auto-B5398588-B695-7627-E544-C5E43E49AE67 (p2, c1, k60, u'mjproyect').
+1685424621: Client auto-B5398588-B695-7627-E544-C5E43E49AE67 disconnected.
+1685424630: Client ESP32Client closed its connection.
+1685424630: New connection from 172.22.0.1:41786 on port 1883.
+1685424630: New client connected from 172.22.0.1:41786 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685424636: New connection from 172.22.0.1:41788 on port 1883.
+1685424636: New client connected from 172.22.0.1:41788 as auto-73A09861-3729-D0CF-140B-D2FA8DD6694F (p2, c1, k60, u'mjproyect').
+1685424636: Client auto-73A09861-3729-D0CF-140B-D2FA8DD6694F disconnected.
+1685424638: New connection from 172.22.0.1:41790 on port 1883.
+1685424638: New client connected from 172.22.0.1:41790 as auto-7281C6AA-8360-F001-212D-68214588A4A0 (p2, c1, k60, u'mjproyect').
+1685424638: Client auto-7281C6AA-8360-F001-212D-68214588A4A0 disconnected.
+1685424640: New connection from 172.22.0.1:41792 on port 1883.
+1685424640: New client connected from 172.22.0.1:41792 as auto-67E06C8A-001D-0BE7-1633-4BA877E64FBF (p2, c1, k60, u'mjproyect').
+1685424640: Client auto-67E06C8A-001D-0BE7-1633-4BA877E64FBF disconnected.
+1685424641: New connection from 172.22.0.1:41794 on port 1883.
+1685424641: New client connected from 172.22.0.1:41794 as auto-C232591D-E42F-0648-81C7-E86112E3918F (p2, c1, k60, u'mjproyect').
+1685424641: Client auto-C232591D-E42F-0648-81C7-E86112E3918F disconnected.
+1685424642: New connection from 172.22.0.1:41796 on port 1883.
+1685424642: New client connected from 172.22.0.1:41796 as auto-133266EE-0DAF-3DD0-805B-3CACAA765122 (p2, c1, k60, u'mjproyect').
+1685424642: Client auto-133266EE-0DAF-3DD0-805B-3CACAA765122 disconnected.
+1685424643: New connection from 172.22.0.1:41798 on port 1883.
+1685424643: New client connected from 172.22.0.1:41798 as auto-E832485D-98D7-CD3F-CFD3-AF0C0B90E9B1 (p2, c1, k60, u'mjproyect').
+1685424643: Client auto-E832485D-98D7-CD3F-CFD3-AF0C0B90E9B1 disconnected.
+1685424643: New connection from 172.22.0.1:41800 on port 1883.
+1685424643: New client connected from 172.22.0.1:41800 as auto-30E6F65A-8A1F-F86C-FF45-D765041BE24A (p2, c1, k60, u'mjproyect').
+1685424644: Client auto-30E6F65A-8A1F-F86C-FF45-D765041BE24A disconnected.
+1685424644: New connection from 172.22.0.1:41802 on port 1883.
+1685424644: New client connected from 172.22.0.1:41802 as auto-A7A3BD0F-F5B8-8C5A-9A57-6DAD3FC53760 (p2, c1, k60, u'mjproyect').
+1685424644: Client auto-A7A3BD0F-F5B8-8C5A-9A57-6DAD3FC53760 disconnected.
+1685424645: New connection from 172.22.0.1:41804 on port 1883.
+1685424645: New client connected from 172.22.0.1:41804 as auto-A40E04E8-C223-C098-C019-E38781878FC6 (p2, c1, k60, u'mjproyect').
+1685424645: Client auto-A40E04E8-C223-C098-C019-E38781878FC6 disconnected.
+1685424677: New connection from 172.22.0.1:41806 on port 1883.
+1685424677: New client connected from 172.22.0.1:41806 as auto-33B6A4AE-FF60-DE98-C8F1-AD4667A86647 (p2, c1, k60, u'mjproyect').
+1685424677: Client auto-33B6A4AE-FF60-DE98-C8F1-AD4667A86647 disconnected.
+1685424681: New connection from 172.22.0.1:41808 on port 1883.
+1685424681: New client connected from 172.22.0.1:41808 as auto-D2DEAF88-B6B9-3046-2FFF-908C14E0CCC5 (p2, c1, k60, u'mjproyect').
+1685424681: Client auto-D2DEAF88-B6B9-3046-2FFF-908C14E0CCC5 disconnected.
+1685424794: Client auto-2BEAEF6C-B133-B475-44FB-A1A748D2075D closed its connection.
+1685425048: New connection from 172.22.0.1:41810 on port 1883.
+1685425048: New client connected from 172.22.0.1:41810 as auto-FB57C311-87BC-944C-E2C7-E53581C7CDC4 (p2, c1, k60, u'mjproyect').
+1685425048: Client auto-FB57C311-87BC-944C-E2C7-E53581C7CDC4 disconnected.
+1685425050: New connection from 172.22.0.1:41812 on port 1883.
+1685425050: New client connected from 172.22.0.1:41812 as auto-C7A3CE14-0687-1B42-7685-15FBBB872183 (p2, c1, k60, u'mjproyect').
+1685425050: Client auto-C7A3CE14-0687-1B42-7685-15FBBB872183 disconnected.
+1685425176: mosquitto version 2.0.15 terminating
+1685425176: Saving in-memory database to /mosquitto/data//mosquitto.db.
