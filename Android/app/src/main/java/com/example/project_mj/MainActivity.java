@@ -1,25 +1,23 @@
 package com.example.project_mj;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.w3c.dom.Text;
-
-import java.io.IOException;
-
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,27 +35,16 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Hola", Toast.LENGTH_SHORT).show();
                 // Obtener los datos del formulario de inicio de sesión
                 String email = editTextEmail.getText().toString();
                 String password = editTextPassword.getText().toString();
 
-                // Crear un objeto JSON con los datos de inicio de sesión
-                JSONObject json = new JSONObject();
-                try {
-                    json.put("email", email);
-                    json.put("password", password);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
-                // Crear una instancia del cliente OkHttp
-                OkHttpClient client = new OkHttpClient();
-
-                // Definir el tipo de contenido como JSON
-                MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
-
-                // Crear el cuerpo de la solicitud POST con los datos JSON
-                RequestBody requestBody = RequestBody.create(json.toString(), mediaType);
+                // Crear un cuerpo de formulario con los datos de inicio de sesión
+                RequestBody requestBody = new FormBody.Builder()
+                        .add("email", email)
+                        .add("password", password)
+                        .build();
 
                 // Crear la solicitud POST
                 Request request = new Request.Builder()
@@ -65,26 +52,34 @@ public class MainActivity extends AppCompatActivity {
                         .post(requestBody)
                         .build();
 
-                try {
-                    // Enviar la solicitud POST y obtener la respuesta
-                    Response response = client.newCall(request).execute();
+                // Crear una instancia del cliente OkHttp
+                OkHttpClient client = new OkHttpClient();
 
-                    // Comprobar el código de respuesta
-                    if (response.isSuccessful()) {
-                        // La solicitud fue exitosa
-                        Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-                        startActivity(intent);
-                    } else {
-                        // La solicitud no fue exitosa
-                        // Manejar el caso de error según tus necesidades
+                // Enviar la solicitud POST de forma asíncrona
+                client.newCall(request).enqueue(new Callback() {
+                    @Override
+                    public void onFailure(Call call, IOException e) {
+                        e.printStackTrace();
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(MainActivity.this, "Error en la solicitud", Toast.LENGTH_SHORT).show();
+                            }
+                        });
                     }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+
+                    @Override
+                    public void onResponse(Call call, Response response) throws IOException {
+                        final String responseData = response.body().string();
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(MainActivity.this, responseData, Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+                });
             }
         });
-
-
-        // Agrega el código para manejar el evento "Forgot Password" si es necesario
     }
 }
