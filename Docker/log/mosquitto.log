@@ -543,3 +543,112 @@
 1685477499: Saving in-memory database to /mosquitto/data//mosquitto.db.
 1685477532: mosquitto version 2.0.15 terminating
 1685477532: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685640207: mosquitto version 2.0.15 starting
+1685640207: Config loaded from /mosquitto/config/mosquitto.conf.
+1685640207: Opening ipv4 listen socket on port 1883.
+1685640207: Opening ipv6 listen socket on port 1883.
+1685640207: mosquitto version 2.0.15 running
+1685640210: New connection from 172.18.0.1:33614 on port 1883.
+1685640210: New client connected from 172.18.0.1:33614 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685640218: mosquitto version 2.0.15 terminating
+1685640218: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685640223: mosquitto version 2.0.15 starting
+1685640223: Config loaded from /mosquitto/config/mosquitto.conf.
+1685640223: Opening ipv4 listen socket on port 1883.
+1685640223: Opening ipv6 listen socket on port 1883.
+1685640223: mosquitto version 2.0.15 running
+1685640242: New connection from 172.19.0.1:33618 on port 1883.
+1685640242: New client connected from 172.19.0.1:33618 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685640353: New connection from 172.19.0.1:33620 on port 1883.
+1685640353: Client ESP32Client already connected, closing old connection.
+1685640353: New client connected from 172.19.0.1:33620 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685640424: New connection from 172.19.0.1:33622 on port 1883.
+1685640424: New client connected from 172.19.0.1:33622 as auto-F2158E46-7B39-EECB-C02A-78D4D6E6E036 (p2, c1, k60, u'mjproyect').
+1685640424: Client auto-F2158E46-7B39-EECB-C02A-78D4D6E6E036 disconnected.
+1685640427: New connection from 172.19.0.1:33624 on port 1883.
+1685640427: New client connected from 172.19.0.1:33624 as auto-253D2542-6E30-E041-B48A-1D62E205BAB8 (p2, c1, k60, u'mjproyect').
+1685640427: Client auto-253D2542-6E30-E041-B48A-1D62E205BAB8 disconnected.
+1685640430: New connection from 172.19.0.1:33626 on port 1883.
+1685640430: New client connected from 172.19.0.1:33626 as auto-F8F9AB37-5CED-03D9-D596-94C64A72AB00 (p2, c1, k60, u'mjproyect').
+1685640430: Client auto-F8F9AB37-5CED-03D9-D596-94C64A72AB00 disconnected.
+1685640431: New connection from 172.19.0.1:33628 on port 1883.
+1685640431: New client connected from 172.19.0.1:33628 as auto-A0EB82A7-5326-365D-FBC6-A72BD0ED1AB1 (p2, c1, k60, u'mjproyect').
+1685640431: Client auto-A0EB82A7-5326-365D-FBC6-A72BD0ED1AB1 disconnected.
+1685640444: New connection from 172.19.0.1:33630 on port 1883.
+1685640444: New client connected from 172.19.0.1:33630 as auto-A0374399-6A19-C6FC-54DA-42543A9AF710 (p2, c1, k60, u'mjproyect').
+1685640444: Client auto-A0374399-6A19-C6FC-54DA-42543A9AF710 disconnected.
+1685640444: New connection from 172.19.0.1:33632 on port 1883.
+1685640444: New client connected from 172.19.0.1:33632 as auto-2A402032-AAAD-F938-1045-DE11EEC16190 (p2, c1, k60, u'mjproyect').
+1685640444: Client auto-2A402032-AAAD-F938-1045-DE11EEC16190 disconnected.
+1685640445: New connection from 172.19.0.1:33634 on port 1883.
+1685640445: New client connected from 172.19.0.1:33634 as auto-7FF14A60-51F2-325B-40D8-5769FB42FF96 (p2, c1, k60, u'mjproyect').
+1685640445: Client auto-7FF14A60-51F2-325B-40D8-5769FB42FF96 disconnected.
+1685640446: New connection from 172.19.0.1:33636 on port 1883.
+1685640446: New client connected from 172.19.0.1:33636 as auto-BBF6B5ED-D307-3AA9-862C-0BBDD606C290 (p2, c1, k60, u'mjproyect').
+1685640446: Client auto-BBF6B5ED-D307-3AA9-862C-0BBDD606C290 disconnected.
+1685640447: New connection from 172.19.0.1:33638 on port 1883.
+1685640447: New client connected from 172.19.0.1:33638 as auto-0174D484-9DCB-B975-871D-FADA823EA518 (p2, c1, k60, u'mjproyect').
+1685640447: Client auto-0174D484-9DCB-B975-871D-FADA823EA518 disconnected.
+1685640448: New connection from 172.19.0.1:33640 on port 1883.
+1685640448: New client connected from 172.19.0.1:33640 as auto-818871E3-8A4B-E715-0FBD-D214171FFEEA (p2, c1, k60, u'mjproyect').
+1685640448: Client auto-818871E3-8A4B-E715-0FBD-D214171FFEEA disconnected.
+1685640449: New connection from 172.19.0.1:33642 on port 1883.
+1685640449: New client connected from 172.19.0.1:33642 as auto-796840D5-82C6-94CF-DCC8-33CF265E8A0E (p2, c1, k60, u'mjproyect').
+1685640449: Client auto-796840D5-82C6-94CF-DCC8-33CF265E8A0E disconnected.
+1685640450: New connection from 172.19.0.1:33644 on port 1883.
+1685640450: New client connected from 172.19.0.1:33644 as auto-3C397E1C-8BDC-BA42-07DF-70DD87A00155 (p2, c1, k60, u'mjproyect').
+1685640450: Client auto-3C397E1C-8BDC-BA42-07DF-70DD87A00155 disconnected.
+1685640452: New connection from 172.19.0.1:33646 on port 1883.
+1685640452: New client connected from 172.19.0.1:33646 as auto-9FE0A4ED-AA44-24BD-CAAA-D3F2C0BE42B8 (p2, c1, k60, u'mjproyect').
+1685640452: Client auto-9FE0A4ED-AA44-24BD-CAAA-D3F2C0BE42B8 disconnected.
+1685640453: New connection from 172.19.0.1:33648 on port 1883.
+1685640453: New client connected from 172.19.0.1:33648 as auto-EACC896D-1DAD-A339-A7D9-D7C5FA9BFB65 (p2, c1, k60, u'mjproyect').
+1685640453: Client auto-EACC896D-1DAD-A339-A7D9-D7C5FA9BFB65 disconnected.
+1685640457: New connection from 172.19.0.1:33650 on port 1883.
+1685640457: New client connected from 172.19.0.1:33650 as auto-49EA433F-B56E-8E20-C435-62A382FEE9D3 (p2, c1, k60, u'mjproyect').
+1685640457: Client auto-49EA433F-B56E-8E20-C435-62A382FEE9D3 disconnected.
+1685640458: New connection from 172.19.0.1:33652 on port 1883.
+1685640458: New client connected from 172.19.0.1:33652 as auto-971E92A8-9EF9-60F7-BF7A-17DA0E093B32 (p2, c1, k60, u'mjproyect').
+1685640458: Client auto-971E92A8-9EF9-60F7-BF7A-17DA0E093B32 disconnected.
+1685640459: New connection from 172.19.0.1:33654 on port 1883.
+1685640459: New client connected from 172.19.0.1:33654 as auto-992CE5CE-5825-2686-96C4-C4DA5F67E940 (p2, c1, k60, u'mjproyect').
+1685640459: Client auto-992CE5CE-5825-2686-96C4-C4DA5F67E940 disconnected.
+1685640460: New connection from 172.19.0.1:33656 on port 1883.
+1685640460: New client connected from 172.19.0.1:33656 as auto-8450E849-B351-6590-7BE8-8F40BE4702D8 (p2, c1, k60, u'mjproyect').
+1685640460: Client auto-8450E849-B351-6590-7BE8-8F40BE4702D8 disconnected.
+1685640461: New connection from 172.19.0.1:33658 on port 1883.
+1685640461: New client connected from 172.19.0.1:33658 as auto-F1F409FB-7CF3-BBBD-E293-91E19980A7D0 (p2, c1, k60, u'mjproyect').
+1685640461: Client auto-F1F409FB-7CF3-BBBD-E293-91E19980A7D0 disconnected.
+1685640462: New connection from 172.19.0.1:33660 on port 1883.
+1685640462: New client connected from 172.19.0.1:33660 as auto-3409AC82-4011-B0F5-FD5C-BFDAA9AB80A8 (p2, c1, k60, u'mjproyect').
+1685640462: Client auto-3409AC82-4011-B0F5-FD5C-BFDAA9AB80A8 disconnected.
+1685640463: New connection from 172.19.0.1:33662 on port 1883.
+1685640463: New client connected from 172.19.0.1:33662 as auto-966F9C34-AA85-AF3F-C97C-A7BC45D32B6A (p2, c1, k60, u'mjproyect').
+1685640463: Client auto-966F9C34-AA85-AF3F-C97C-A7BC45D32B6A disconnected.
+1685642024: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685643825: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685645626: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685647427: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685647986: New connection from 172.19.0.1:33664 on port 1883.
+1685647986: Client ESP32Client already connected, closing old connection.
+1685647986: New client connected from 172.19.0.1:33664 as ESP32Client (p2, c1, k15, u'mjproyect').
+1685648011: Client ESP32Client has exceeded timeout, disconnecting.
+1685649228: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685651029: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685652830: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685654631: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685656432: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685658233: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685660034: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685661835: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685663636: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685665437: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685667238: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685669039: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685670840: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685672641: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685674442: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685676243: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685678044: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685679845: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1685681646: Saving in-memory database to /mosquitto/data//mosquitto.db.
