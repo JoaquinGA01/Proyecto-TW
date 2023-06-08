@@ -17,11 +17,11 @@ function toggleRegistration() {
 async function iniciarSesion() {
   var user = document.getElementById('username').value;
   var pass = document.getElementById('password').value;
-  const url = 'http://127.0.0.1:8000/api/personas/getAll/';
+  const url = 'api/personas/getAll/';
   params = { email: user, password: pass };
   console.log(JSON.stringify(params));
 
-  const response = await fetch('http://127.0.0.1:8000/api/personas/getAll/', {
+  const response = await fetch('api/personas/getAll/', {
     method: 'POST',
     body: JSON.stringify(params),
     headers: {

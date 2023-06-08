@@ -27,7 +27,7 @@ function togglePower(event, appliance) {
       topic: topic,
       message: message
     };
-    $.post('http://127.0.0.1:8000/enviar-mqtt/', data, function (response) {
+    $.post('/enviar-mqtt/', data, function (response) {
       console.log('Respuesta del servidor:', response);
     });
     console.log(`El aparato '${appliance}' ha sido encendido.`);
@@ -38,7 +38,7 @@ function togglePower(event, appliance) {
       topic: topic,
       message: message
     };
-    $.post('http://127.0.0.1:8000/enviar-mqtt/', data, function (response) {
+    $.post('/enviar-mqtt/', data, function (response) {
       console.log('Respuesta del servidor:', response);
     });
     console.log(`El aparato '${appliance}' ha sido apagado.`);
