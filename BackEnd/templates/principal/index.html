@@ -2,22 +2,22 @@
 <html>
 <head>
   <title>MI PÁGINA</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="static/principal/styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#" onclick="openTab(event, 'inicio')">Inicio</a></li>
-        <li><a href="#" onclick="openTab(event, 'perfil-familia')">Perfil y Familia</a></li>
-        <li><a href="#" onclick="openTab(event, 'administrar')">Administrar</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <div class="container">
-    <div id="inicio" class="tabcontent">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="openTab(event, 'inicio')">Inicio</a></li>
+          <li><a href="#" onclick="openTab(event, 'perfil-familia')">Perfil y Familia</a></li>
+          <li><a href="#" onclick="openTab(event, 'administrar')">Administrar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="tabcontent" id="inicio">
       <h2>Inicio</h2>
       <div class="appliance">
         <h3>Televisor</h3>
@@ -35,30 +35,31 @@
       </div>
     </div>
 
-    <div id="perfil-familia" class="tabcontent">
+    <div class="tabcontent" id="perfil-familia">
       <h2>Perfil y Familia</h2>
       <p>Aquí va el contenido de la pestaña "Perfil y Familia".</p>
     </div>
+
+    <div class="tabcontent" id="administrar">
+      <h2>Administrar</h2>
+      <h3>Lista de Aparatos</h3>
+      <ul>
+        <li>
+          <strong>Televisor:</strong>
+          <button onclick="encenderAparato('televisor')">Encender</button>
+          <button onclick="apagarAparato('televisor')">Apagar</button>
+          <button onclick="editarAparato('televisor')">Editar</button>
+        </li>
+        <li>
+          <strong>Aire Acondicionado:</strong>
+          <button onclick="encenderAparato('aire-acondicionado')">Encender</button>
+          <button onclick="apagarAparato('aire-acondicionado')">Apagar</button>
+          <button onclick="editarAparato('aire-acondicionado')">Editar</button>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div id="administrar" class="tabcontent">
-    <h2>Administrar</h2>
-    <h3>Lista de Aparatos</h3>
-    <ul>
-      <li>
-        <strong>Televisor:</strong>
-        <button onclick="encenderAparato('televisor')">Encender</button>
-        <button onclick="apagarAparato('televisor')">Apagar</button>
-        <button onclick="editarAparato('televisor')">Editar</button>
-      </li>
-      <li>
-        <strong>Aire Acondicionado:</strong>
-        <button onclick="encenderAparato('aire-acondicionado')">Encender</button>
-        <button onclick="apagarAparato('aire-acondicionado')">Apagar</button>
-        <button onclick="editarAparato('aire-acondicionado')">Editar</button>
-      </li>
-      <!-- Agrega más aparatos y botones según sea necesario -->
-    </ul>
-  </div>
+
   <script src="static/principal/script.js"></script>
 </body>
 </html>
